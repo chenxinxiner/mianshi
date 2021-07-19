@@ -10,6 +10,7 @@ public class HystrixTestController {
     @GetMapping("commandGetPayment")
     public String testGetCommand() {
         PaymentInfoCommand paymentInfoCommand = new PaymentInfoCommand(1L);
+        return paymentInfoCommand.toString();
     }
 
 }
