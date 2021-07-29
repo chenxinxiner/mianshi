@@ -30,5 +30,6 @@ public class LockSupportTest {
 
         a.start();
         b.start();
+        String a1 = "s";
     }
 }
