@@ -1,7 +1,7 @@
 package springboot.service.write;
 
-import cn.chenxinzouzou.mall.payment.entities.PaymentDO;
 import org.apache.ibatis.annotations.Param;
+import springboot.entities.PaymentDO;
 
 /**
  * @author ：chenxin

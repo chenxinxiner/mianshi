@@ -1,6 +1,6 @@
 package springboot.dao.write;
 
-import cn.chenxinzouzou.mall.payment.entities.PaymentDO;
+import springboot.entities.PaymentDO;
 
 /**
  * @author ：chenxin

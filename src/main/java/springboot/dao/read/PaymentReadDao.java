@@ -1,10 +1,10 @@
 package springboot.dao.read;
 
-import cn.chenxinzouzou.mall.payment.entities.PaymentDO;
-import cn.chenxinzouzou.mall.payment.entities.TwoTuple;
-import cn.chenxinzouzou.mall.payment.entities.TwoTupleC;
-import cn.chenxinzouzou.mall.payment.entities.TwoTupleD;
 import org.apache.ibatis.annotations.Param;
+import springboot.entities.PaymentDO;
+import springboot.entities.TwoTuple;
+import springboot.entities.TwoTupleC;
+import springboot.entities.TwoTupleD;
 
 /**
  * @author ：chenxin
@@ -24,5 +24,5 @@ public interface PaymentReadDao {
 
     TwoTupleC queryPaymentByTwoTuple(@Param("tuple") TwoTuple tuple);
 
-    int inserttest(@Param("tuple")TwoTupleD tuple);
+    int inserttest(@Param("tuple") TwoTupleD tuple);
 }

@@ -1,9 +1,9 @@
 package springboot.service.write.impl;
 
-import cn.chenxinzouzou.mall.payment.dao.write.PaymentWriteDao;
-import cn.chenxinzouzou.mall.payment.entities.PaymentDO;
-import cn.chenxinzouzou.mall.payment.service.write.PaymentWriteService;
 import org.springframework.stereotype.Service;
+import springboot.dao.write.PaymentWriteDao;
+import springboot.entities.PaymentDO;
+import springboot.service.write.PaymentWriteService;
 
 import javax.annotation.Resource;
 

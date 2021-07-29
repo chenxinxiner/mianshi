@@ -1,9 +1,9 @@
 package springboot.service.read.impl;
 
-import cn.chenxinzouzou.mall.payment.dao.read.PaymentReadDao;
-import cn.chenxinzouzou.mall.payment.entities.PaymentDO;
-import cn.chenxinzouzou.mall.payment.service.read.PaymentReadService;
 import org.springframework.stereotype.Service;
+import springboot.dao.read.PaymentReadDao;
+import springboot.entities.PaymentDO;
+import springboot.service.read.PaymentReadService;
 
 import javax.annotation.Resource;
 
