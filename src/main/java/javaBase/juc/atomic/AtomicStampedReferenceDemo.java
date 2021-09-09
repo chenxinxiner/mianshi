@@ -1,4 +1,4 @@
-package juc.atomic;
+package javaBase.juc.atomic;
 
 public class AtomicStampedReferenceDemo {
 }

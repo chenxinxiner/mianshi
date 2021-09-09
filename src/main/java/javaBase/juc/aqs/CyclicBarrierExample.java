@@ -1,4 +1,4 @@
-package juc.aqs;
+package javaBase.juc.aqs;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package juc;
+package javaBase.juc;
 
 import org.openjdk.jol.info.ClassLayout;
 

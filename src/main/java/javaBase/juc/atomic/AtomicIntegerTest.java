@@ -1,4 +1,4 @@
-package juc.atomic;
+package javaBase.juc.atomic;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
